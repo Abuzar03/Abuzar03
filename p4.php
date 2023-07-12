@@ -6,17 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-        <form method="POST">
-            <label>NAME:</label>
-            <input type="text" name="name"require="Enter Your Name">
-            <input type="submit" name="submit" value="submit">
-        </form>
-        <?php
-            if(isset($_POST['submit']))
-            {
-                $fname=$_POST['name'];
-                echo "<h1><i>.$fname</i><h1>";
-            }
-            ?>
+    <form method="POST">
+    <label>Enter Your Name:</label>
+    <input type="text"name="f_name">
+    <input type="submit" value="Display" name="submit">
+    </form>
 </body>
 </html>
+<?php 
+    if(isset($_POST['submit'])){
+        $f_name=$_POST['f_name'];
+        echo "<h1><i> Good Morning, $f_name</i></h1>";
+    }
+    ?>

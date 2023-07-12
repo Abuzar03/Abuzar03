@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <a href="#">VyaraCollege</a>
+    <a href="http://Vyara College"></a>
 </head>
 <body>
-<h1><?php echo $t="VyaraCollege"?></h1>
-</body>
+    <?php  $t="Vyara College";
+    ?>
+    <h1><?php echo $t;?></h1>
+    <a href="#"><?php echo $t;?></a>
+</body> 
 </html>

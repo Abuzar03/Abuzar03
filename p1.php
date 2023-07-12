@@ -1,5 +1,3 @@
 <?php
-$a="Today I/'ll Learn Php Variables\n";
-$b="This is  Good Command:del c:\\*.*";
-echo $a.'<br>'.$b;
-?>
+$a="Today I'll Learn Php Variables:</br>This is Good Commanad :def C:\\*.*";
+echo $a;
